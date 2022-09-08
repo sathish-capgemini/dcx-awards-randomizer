@@ -44,7 +44,7 @@ public class App {
                         int completionMonth = completionDate.getMonthValue();
                         int currentMonth = dateNow.getMonthValue();
                         if (currentMonth - completionMonth == 1) {
-                            Cell cell = row.getCell(6);
+                            Cell cell = row.getCell(5);
                             nominees.add(cell.getStringCellValue());
                         }
                     });
